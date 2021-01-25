@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     public String index(){
-        return "CI/CD 구성 완료";
+        return "실행 확인";
     }
 }
