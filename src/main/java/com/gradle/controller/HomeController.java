@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     public String index(){
-        return "실행 확인";
+        return "slack trigger test";
     }
 }
