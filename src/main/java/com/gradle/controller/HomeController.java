@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @RequestMapping("/")
     public String index(){
-        return "pipeline 완료";
+        return "재설정";
     }
 }
